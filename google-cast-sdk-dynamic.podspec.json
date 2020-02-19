@@ -43,18 +43,18 @@
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/Headers/*.h",
-      "preserve_paths": "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework",
+      "source_files": "GoogleCastSDK-ios-no-bluetooth-4.4.6_dynamic/GoogleCast.framework/Headers/*.h",
+      "preserve_paths": "GoogleCastSDK-ios-no-bluetooth-4.4.6_dynamic/GoogleCast.framework",
       "requires_arc": true,
       "vendored_frameworks": [
-        "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework"
+        "GoogleCastSDK-ios-no-bluetooth-4.4.6_dynamic/GoogleCast.framework"
       ],
       "libraries": [
         "c++"
       ],
       "resources": [
-        "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/GoogleCastCoreResources.bundle",
-        "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/GoogleCastUIResources.bundle"
+        "GoogleCastSDK-ios-no-bluetooth-4.4.6_dynamic/GoogleCast.framework/GoogleCastCoreResources.bundle",
+        "GoogleCastSDK-ios-no-bluetooth-4.4.6_dynamic/GoogleCast.framework/GoogleCastUIResources.bundle"
       ]
     }
   ]
