@@ -15,7 +15,7 @@
   "preserve_paths": "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/Modules/module.modulemap",
   "module_map": "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/Modules/module.modulemap",
   "source": {
-    "http": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.4.6_dynamic.zip"
+    "http": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-no-bluetooth-4.4.6_dynamic.zip"
   },
   "platforms": {
     "ios": "9.0"
