@@ -1,5 +1,5 @@
 {
-  "name": "google-cast-sdk-dynamic",
+  "name": "google-cast-sdk-no-bluetooth-dynamic",
   "dependencies": {
     "Protobuf": "~> 3.0"
   },
