@@ -1,9 +1,9 @@
 {
-  "name": "google-cast-sdk-no-bluetooth-dynamic",
+  "name": "google-cast-sdk-dynamic",
   "dependencies": {
     "Protobuf": "~> 3.0"
   },
-  "version": "4.4.6",
+  "version": "4.4.4",
   "license": {
     "type": "Commercial",
     "text": "https://developers.google.com/terms/"
@@ -15,7 +15,7 @@
   "preserve_paths": "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework/Modules/module.modulemap",
   "module_map": "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework/Modules/module.modulemap",
   "source": {
-    "http": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.4.6_dynamic.zip"
+    "http": "https://dl.google.com/dl/chromecast/sdk/ios/GoogleCastSDK-ios-4.4.4_dynamic.zip"
   },
   "platforms": {
     "ios": "9.0"
@@ -43,18 +43,18 @@
   "subspecs": [
     {
       "name": "Core",
-      "source_files": "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/Headers/*.h",
-      "preserve_paths": "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework",
+      "source_files": "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework/Headers/*.h",
+      "preserve_paths": "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework",
       "requires_arc": true,
       "vendored_frameworks": [
-        "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework"
+        "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework"
       ],
       "libraries": [
         "c++"
       ],
       "resources": [
-        "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/GoogleCastCoreResources.bundle",
-        "GoogleCastSDK-ios-4.4.6_dynamic/GoogleCast.framework/GoogleCastUIResources.bundle"
+        "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework/GoogleCastCoreResources.bundle",
+        "GoogleCastSDK-ios-4.4.4_dynamic/GoogleCast.framework/GoogleCastUIResources.bundle"
       ]
     }
   ]
